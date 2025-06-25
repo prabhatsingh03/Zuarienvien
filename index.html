@@ -49,12 +49,11 @@
 </head>
 <body class="text-slate-700">
 
-    <!-- Header & Navigation -->
     <header class="bg-white/80 backdrop-blur-lg sticky top-0 z-50 shadow-sm">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-20">
                 <div class="flex items-center space-x-2">
-                    <img src="logo.png" alt="" srcset="" style="width: 110px;">
+                    <img src="logo.png" alt="Zuari Envien Bioenergy Logo" style="width: 110px;">
                 </div>
                 <nav class="hidden lg:flex items-center space-x-6">
                     <a class="nav-link active font-semibold border-b-2 border-transparent" onclick="showPage('home')">Home</a>
@@ -74,7 +73,6 @@
                 </div>
             </div>
         </div>
-        <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden lg:hidden">
             <a class="block py-2 px-4 text-sm hover:bg-emerald-50" onclick="showPage('home', true)">Home</a>
             <a class="block py-2 px-4 text-sm hover:bg-emerald-50" onclick="showPage('about', true)">About Us</a>
@@ -87,7 +85,6 @@
     </header>
 
     <main>
-        <!-- Home Section -->
         <section id="home" class="section active">
             <div class="relative h-[60vh] md:h-[80vh] bg-cover bg-center" style="background-image: url('image1.jpg');">
                 <div class="absolute inset-0 hero-gradient flex items-center justify-center">
@@ -116,7 +113,7 @@
                     </div>
 
                     <div class="text-center mb-20 py-16 bg-slate-50 rounded-2xl animate-on-scroll">
-                        <h2 class="text-3xl md:text-4xl font-bold text-slate-800 mb-4">ZEBL at a Glance</h2>
+                        <h2 class="text-3xl md:text-4xl font-bold text-slate-800 mb-4">ZEBPL at a Glance</h2>
                         <p class="max-w-3xl mx-auto text-lg text-slate-600 mb-12">Our commitment translated into tangible impact.</p>
                         <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
                             <div>
@@ -166,7 +163,6 @@
             </div>
         </section>
 
-        <!-- About Us Section -->
         <section id="about" class="section py-16 lg:py-24 bg-slate-50">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center mb-12 animate-on-scroll">
@@ -224,7 +220,6 @@
             </div>
         </section>
 
-        <!-- NEW Operations Section -->
         <section id="operations" class="section py-16 lg:py-24 bg-white">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center mb-12 animate-on-scroll">
@@ -264,7 +259,6 @@
             </div>
         </section>
 
-        <!-- NEW Sustainability Section -->
         <section id="sustainability" class="section py-16 lg:py-24 bg-slate-50">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center mb-12 animate-on-scroll">
@@ -291,7 +285,6 @@
             </div>
         </section>
         
-        <!-- NEW Media Section -->
         <section id="media" class="section py-16 lg:py-24 bg-white">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center mb-12 animate-on-scroll">
@@ -327,24 +320,137 @@
             </div>
         </section>
 
-        <!-- NEW Careers Section -->
         <section id="careers" class="section py-16 lg:py-24 bg-slate-50">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="grid md:grid-cols-2 gap-12 items-center">
-                    <div class="animate-on-scroll">
-                        <h2 class="text-3xl md:text-4xl font-bold text-slate-800 mb-4">Build a Future with Purpose</h2>
-                        <p class="text-lg text-slate-600 mb-6 leading-relaxed">Join a pioneering team driving India’s bioenergy transition. At ZEBPL, you'll have the opportunity to work with cutting-edge technology and contribute to a more sustainable future. We are committed to fostering a diverse and inclusive culture of excellence.</p>
-                        <a href="#" class="cta-button bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3 px-8 rounded-full shadow-lg">View Open Roles</a>
+                <div class="text-center mb-12 animate-on-scroll">
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-800">Build a Future with Purpose</h2>
+                    <p class="mt-4 max-w-2xl mx-auto text-lg text-slate-600">Join a pioneering team driving India’s bioenergy transition.</p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-12 items-center mb-16 animate-on-scroll">
+                    <div>
+                        <ul class="space-y-4 text-lg text-slate-600">
+                            <li class="flex items-start">
+                                <i data-lucide="briefcase" class="h-6 w-6 text-emerald-500 mr-3 mt-1 flex-shrink-0"></i>
+                                <span>Open roles in operations, engineering, and administration.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-lucide="graduation-cap" class="h-6 w-6 text-emerald-500 mr-3 mt-1 flex-shrink-0"></i>
+                                <span>Campus engagement and talent pipeline development.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-lucide="users" class="h-6 w-6 text-emerald-500 mr-3 mt-1 flex-shrink-0"></i>
+                                <span>A diversity and equal opportunity driven culture.</span>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="animate-on-scroll" style="transition-delay: 100ms;">
+                    <div>
                         <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop" alt="A diverse group of colleagues working together and smiling" class="rounded-lg shadow-xl" onerror="this.onerror=null;this.src='https://placehold.co/600x400/14b8a6/ffffff?text=Join+Our+Team';">
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 md:p-12 rounded-2xl shadow-lg animate-on-scroll">
+                    <h3 class="text-2xl md:text-3xl font-bold text-emerald-700 mb-6 text-center">Our Talent Commitment</h3>
+                    <p class="text-center text-slate-600 text-lg mb-8 max-w-3xl mx-auto">At ZEBPL, we believe in nurturing home-grown and cross-functional talent. Our employees benefit from:</p>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+                        <div class="flex flex-col items-center">
+                            <i data-lucide="book-open-check" class="h-10 w-10 text-emerald-500 mb-3"></i>
+                            <h4 class="font-bold text-slate-800">Continuous Learning</h4>
+                            <p class="text-sm text-slate-500">Access to skill development programs.</p>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <i data-lucide="network" class="h-10 w-10 text-emerald-500 mb-3"></i>
+                            <h4 class="font-bold text-slate-800">Cross-functional Growth</h4>
+                            <p class="text-sm text-slate-500">Opportunities for diverse career paths.</p>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <i data-lucide="globe" class="h-10 w-10 text-emerald-500 mb-3"></i>
+                            <h4 class="font-bold text-slate-800">Global Exposure</h4>
+                            <p class="text-sm text-slate-500">Learn from Envien’s international framework.</p>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <i data-lucide="handshake" class="h-10 w-10 text-emerald-500 mb-3"></i>
+                            <h4 class="font-bold text-slate-800">Inclusive Workplace</h4>
+                            <p class="text-sm text-slate-500">A collaborative and supportive culture.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
+        <section id="procurement" class="section py-16 lg:py-24 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12 animate-on-scroll">
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-800">Partner with Us</h2>
+                    <p class="mt-4 max-w-2xl mx-auto text-lg text-slate-600">ZEBPL welcomes collaboration and procurement partnerships across feedstock sourcing and ethanol offtake.</p>
+                </div>
+                <div class="grid lg:grid-cols-2 gap-12 items-start">
+                    <div class="bg-slate-50 p-8 rounded-lg shadow-md animate-on-scroll">
+                        <div class="flex items-center mb-4">
+                             <i data-lucide="shopping-cart" class="h-10 w-10 text-emerald-500 mr-4"></i>
+                            <h3 class="text-2xl font-bold text-slate-800">For Procurement Partners</h3>
+                        </div>
+                        <p class="text-slate-600 mb-6">We invite local and national suppliers to engage with our procurement team for transparent, policy-driven sourcing.</p>
+                        <a href="#" class="cta-button bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3 px-6 rounded-md shadow-lg inline-block">Procurement Form / Vendor Onboarding</a>
+                    </div>
+                    <div class="bg-slate-50 p-8 rounded-lg shadow-md animate-on-scroll" style="transition-delay: 100ms;">
+                         <div class="flex items-center mb-4">
+                             <i data-lucide="briefcase" class="h-10 w-10 text-emerald-500 mr-4"></i>
+                            <h3 class="text-2xl font-bold text-slate-800">For Sales Leads & Business Enquiries</h3>
+                        </div>
+                        <p class="text-slate-600 mb-6">If you are an OMC, distributor, or buyer interested in fuel-grade ethanol, DDGS or fusel oil, connect with our commercial team for supply chain integration and business opportunities.</p>
+                        <div class="flex flex-wrap gap-4">
+                            <a href="#" class="cta-button bg-slate-700 hover:bg-slate-800 text-white font-bold py-3 px-6 rounded-md shadow-lg">Sales Contact Form</a>
+                            <a href="#" class="cta-button bg-transparent hover:bg-emerald-50 text-emerald-600 font-bold py-3 px-6 rounded-md border-2 border-emerald-500">Request a Call Back</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <!-- Contact Section -->
+        <section id="compliance" class="section py-16 lg:py-24 bg-slate-50">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12 animate-on-scroll">
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-800">Committed to Compliance</h2>
+                    <p class="mt-4 max-w-3xl mx-auto text-lg text-slate-600">At ZEBPL, regulatory and environmental compliance is not just a requirement — it's a core business value. Our ethanol production adheres strictly to:</p>
+                </div>
+                <div class="max-w-4xl mx-auto grid md:grid-cols-3 gap-8 text-center mb-16 animate-on-scroll">
+                    <div class="bg-white p-6 rounded-lg shadow">
+                        <i data-lucide="check-circle" class="mx-auto h-10 w-10 text-emerald-500 mb-3"></i>
+                        <h4 class="font-bold text-lg text-slate-700">BIS Product Standards</h4>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow">
+                        <i data-lucide="recycle" class="mx-auto h-10 w-10 text-emerald-500 mb-3"></i>
+                        <h4 class="font-bold text-lg text-slate-700">Zero Liquid Discharge (ZLD) Norms</h4>
+                    </div>
+                     <div class="bg-white p-6 rounded-lg shadow">
+                        <i data-lucide="mountain" class="mx-auto h-10 w-10 text-emerald-500 mb-3"></i>
+                        <h4 class="font-bold text-lg text-slate-700">MoEFCC Guidelines</h4>
+                    </div>
+                </div>
+                <div class="bg-white p-8 md:p-12 rounded-2xl shadow-lg animate-on-scroll">
+                    <div class="grid md:grid-cols-2 gap-12 items-center">
+                        <div>
+                            <h3 class="text-2xl font-bold text-emerald-700 mb-4">Our Commitments</h3>
+                            <ul class="space-y-4 text-slate-600 text-lg">
+                                <li class="flex items-start"><i data-lucide="file-text" class="h-6 w-6 text-emerald-500 mr-3 mt-1"></i><span>Timely disclosure of environmental reports.</span></li>
+                                <li class="flex items-start"><i data-lucide="bar-chart-3" class="h-6 w-6 text-emerald-500 mr-3 mt-1"></i><span>Transparent data on sustainability impact.</span></li>
+                                <li class="flex items-start"><i data-lucide="shield-check" class="h-6 w-6 text-emerald-500 mr-3 mt-1"></i><span>Strong internal audits and regulatory governance.</span></li>
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                             <p class="text-slate-600 mb-4">All relevant policies, MSDS, EC letters, and ESG reports are available for download here.</p>
+                             <a href="#" class="cta-button bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3 px-8 rounded-full shadow-lg inline-flex items-center">
+                                <i data-lucide="download" class="h-5 w-5 mr-2"></i>
+                                Download Compliance Documents
+                             </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
         <section id="contact" class="section py-16 lg:py-24 bg-white">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center mb-12 animate-on-scroll">
@@ -416,7 +522,6 @@
         </section>
     </main>
 
-    <!-- Footer -->
     <footer class="bg-slate-800 text-slate-300">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <div class="grid md:grid-cols-4 gap-8">
@@ -437,6 +542,8 @@
                     <h4 class="text-lg font-semibold text-white mb-4">Quick Links</h4>
                     <ul class="space-y-2 text-sm">
                         <li><a href="#" onclick="showPage('media')" class="hover:text-emerald-400">Media & News</a></li>
+                         <li><a href="#" onclick="showPage('procurement')" class="hover:text-emerald-400">Procurement</a></li>
+                         <li><a href="#" onclick="showPage('compliance')" class="hover:text-emerald-400">Compliance</a></li>
                         <li><a href="#" onclick="showPage('contact')" class="hover:text-emerald-400">Contact Us</a></li>
                     </ul>
                 </div>
@@ -524,10 +631,15 @@
             const targetSection = document.getElementById(pageId);
             if (targetSection) {
                 targetSection.classList.add('active');
+                 // Re-initialize icons if they are in the new active section
+                lucide.createIcons({
+                    nodes: [targetSection],
+                });
             }
             document.querySelectorAll('.nav-link').forEach(link => {
                 link.classList.remove('active');
-                if (link.getAttribute('onclick') === `showPage('${pageId}')` || link.getAttribute('onclick') === `showPage('${pageId}', true)`) {
+                 // Match both simple and complex onclick attributes
+                if (link.getAttribute('onclick').includes(`'${pageId}'`)) {
                     link.classList.add('active');
                 }
             });
